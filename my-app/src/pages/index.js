@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import { Space_Grotesk } from 'next/font/google';
 import { Typewriter } from 'react-simple-typewriter';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -47,12 +48,16 @@ export default function Home() {
             I'm a full-stack developer with a passion for crafting impactful and meaningful digital experiences. Check out my projects!
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
-            <button className="px-6 py-3 rounded-full bg-pink-300 text-gray-800 font-semibold hover:bg-pink-400 transition">
-              View My Work
-            </button>
-            <button className="px-6 py-3 rounded-full bg-cyan-200 text-gray-800 font-semibold hover:bg-cyan-300 transition">
-              Get in Touch
-            </button>
+            <Link href="/projects">
+              <button className="px-6 py-3 rounded-full bg-pink-300 text-gray-800 font-semibold hover:bg-pink-400 transition">
+                View My Work
+              </button>
+            </Link>
+            <Link href="/contact">
+              <button className="px-6 py-3 rounded-full bg-cyan-200 text-gray-800 font-semibold hover:bg-cyan-300 transition">
+                Get in Touch
+              </button>
+            </Link>
           </div>
         </div>
       </main>
