@@ -41,8 +41,8 @@ function SocialIcon({ href, icon, background }) {
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        width: '48px',
-        height: '48px',
+        width: '64px',
+        height: '64px',
         backgroundColor: background,
         color: '#2D3748',
         borderRadius: '50%',
@@ -50,7 +50,7 @@ function SocialIcon({ href, icon, background }) {
         alignItems: 'center',
         justifyContent: 'center',
         textDecoration: 'none',
-        fontSize: '1.25rem',
+        fontSize: '1.75rem',
         boxShadow: '0 4px 10px rgba(0,0,0,0.08)',
         transition: 'transform 0.2s ease',
       }}

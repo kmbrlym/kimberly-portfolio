@@ -29,7 +29,7 @@ export default function Home() {
             Hey, I'm{' '}
             <span className="text-pink-400">
               <Typewriter
-                words={['Kimberly', 'just a girl 💅']}
+                words={['Kimberly', 'a software engineer']}
                 loop
                 cursor
                 cursorStyle="|"
@@ -39,10 +39,6 @@ export default function Home() {
               />
             </span>
           </h2>
-
-          <div className="text-xl bg-yellow-200 text-gray-700 font-bold inline-block px-5 py-3 rounded-lg mb-6">
-            Software Engineer
-          </div>
 
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             I'm a full-stack developer with a passion for crafting impactful and meaningful digital experiences. Check out my projects!

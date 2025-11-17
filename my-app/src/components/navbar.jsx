@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white border-t-[1.5rem] border-[#FBB6CE] flex justify-between items-center px-8 py-5 font-sans shadow-sm sticky top-0 z-50">
+    <nav className="bg-pink-300 flex justify-between items-center px-8 py-5 font-sans shadow-sm sticky top-0 z-50">
       <div className="text-2xl font-bold text-gray-800 tracking-tight">Kimberly Michela</div>
       
       {/* Desktop Navigation */}
@@ -55,7 +55,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Menu */}
       <div className={`md:hidden fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} onClick={closeMenu}>
-        <div className={`absolute top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} onClick={(e) => e.stopPropagation()}>
+        <div className={`absolute top-0 right-0 h-full w-64 bg-pink-300 shadow-lg transform transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} onClick={(e) => e.stopPropagation()}>
           <div className="flex justify-end p-4">
             <button
               onClick={closeMenu}
