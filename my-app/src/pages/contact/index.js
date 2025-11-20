@@ -60,7 +60,7 @@ export default function ContactForm() {
             Send Message
           </button>
         </form>
-        <div className="mt-10">
+        <div className="mt-6">
           <Social />
         </div>
       </main>

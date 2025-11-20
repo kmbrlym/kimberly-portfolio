@@ -7,7 +7,6 @@ export default function Social() {
       display: 'flex',
       justifyContent: 'center',
       gap: '1rem',
-      marginTop: '3rem',
       flexWrap: 'wrap'
     }}>
       <SocialIcon
